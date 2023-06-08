@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 54.5px;
+    background-color: #fff;
+    font-size: 20px;
+    font-family: Verdana;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#header .title{
+    height: 38.5px;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: black;
+    position: absolute;
+    left: 16px;
+    line-height: 38.5px;
+}
+
+#header .title:hover{
+    background-color: gray;
+}
+
+#header #nav{
+    line-height: 38.5px;
+    position: absolute;
+    right: 16px;
+}
+
+#header #nav li{
+    height: 38.5px;
+    padding: 8px 16px;
+    list-style: none;
+    display: inline-block;
+}
+
+#nav li:hover{
+    background-color: gray;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+#banner{
+    margin-top: 54.5px;
+    height: 500px;
+    background-image: url(/architect/assets/img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#banner .text-banner{
+    margin: 10px 0px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+#banner .text-banner .text{
+    background-color: black;
+    padding: 8px 16px;
+}
+
+#banner .text-banner .text2{
+    padding: 8px 16px;
+}
+
+#content{
+    padding: 8px 16px;
+}
+
+#Project{
+    height: 15xpx;
+    padding: 32px 16px;
+}
+
+#Project .heading{
+    padding: 16px 0px;
+    margin: 10px;
+}
+
+#content .picture{
+    padding: 0px 8px;
+    height: 150px;
+}
+
+#content .picture .house{
+    float: left;
+    width: 25%;
+    position: relative;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+
+.house .title{
+    position: absolute;
+    top: 0;
+    left: 8px;
+    background-color: black;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 20px;
+}
+
+.picture .house .pic{
+    width: 100%;
+}
+
+#content .about_me{
+    padding: 32px 16px;
+}
+
+#content .about_me .about{
+    padding: 16px 0;
+    margin: 10px 0px;
+    font-size: 30px;
+}
+
+#content .about_me .para{
+    margin: 15px 0px;
+    text-align: justify;
+}
+
+#content .member{
+    padding: 0px 8px;
+    height: 320px;
+}
+
+#content .member .pic-member{
+    padding: 0 8px;
+    margin-bottom: 16px;
+    float: left;
+    width: 25%;
+}
+
+.member .pic-member .img{
+    width: 100%;
+}
+
+.member .pos{
+    color: gray;
+}
+
+.member .button{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    width: 80px;
+    text-align: center;
+}
+
+.member .button:hover{
+    background-color: gray;
+    color: black;
+}
+
+#content .contact{
+    padding: 32px 16px;
+}
+
+#content .contact .heading{
+    padding: 16px 0px;
+    margin: 10px;
+    font-size: 24px;
+}
+
+#content .contact .subheading{
+    margin: 15px;
+}
+
+#content .contact .information{
+    list-style: none;
+}
+
+.information .name input{
+    padding: 8px;
+    border: 0.8px solid black;
+}
+
+.contact .information input{
+    width: 100%;
+    padding: 8px;
+    border: 0.8px solid black;
+    margin: 16px 0px;
+}
+
+.contact .information .send{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    margin: 16px 0px;
+    background-color: #000;
+    color: #fff;
+}
+
+.contact .information .send:hover{
+    color: #333;
+    background-color: gray;
+}
+
+#footer .map-footer{
+    height: 500px;
+    padding: 0.15px 16px;
+}
+
+#footer .map-footer .img{
+    height: 100%;
+    background-image: url(/architect/assets/img/map.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#footer .quote{
+    height: 84.5px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 84.5px;
+}
