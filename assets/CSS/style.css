@@ -52,7 +52,7 @@
 #banner{
     margin-top: 54.5px;
     height: 500px;
-    background-image: url(/architect/assets/img/banner.jpg);
+    background-image: url(/assets/img/banner.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@
 
 #footer .map-footer .img{
     height: 100%;
-    background-image: url(/architect/assets/img/map.jpg);
+    background-image: url(/assets/img/map.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
